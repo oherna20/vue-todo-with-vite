@@ -1,6 +1,6 @@
 <template>
     <header class="flex flex-col w-full container">
-    <Title msg="My To Do App"/>
+    <Title msg="- My To Do App -"/>
     <NewTodo />
   </header>
 </template>
