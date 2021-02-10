@@ -6,6 +6,7 @@
     <ListTodos color="red" title="Completed Items" :todos="completedTodos" />
     </Main
     >
+    <Footer/>
 </div>
 </template>
 
@@ -13,5 +14,6 @@
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import ListTodos from './components/ListTodos.vue'
+import Footer from './components/Footer.vue'
 import { pendingTodos, completedTodos } from './helpers/useTodos'
 </script>
